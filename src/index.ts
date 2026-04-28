@@ -1,7 +1,3 @@
-import {BankService} from "./service/bank-service";
-import {InMemoryAccountRepository} from "./repository/in-memory-repository";
-import {randomUUID} from "node:crypto";
-
 export type {
     Account,
     AccountId,
